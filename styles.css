@@ -582,9 +582,9 @@ header::before {
 }
 
 @media (width < 750px) {
-  /* .nav__links {
+  .nav__links {
     gap: 0.5rem;
-  } */
+  }
 
   .classes__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -596,9 +596,9 @@ header::before {
 }
 
 @media (width < 600px) {
-  /* .nav__links {
+  .nav__links {
     display: none;
-  } */
+  }
 
   .hero__container {
     grid-template-columns: repeat(1, 1fr);
